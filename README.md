@@ -1,0 +1,2 @@
+# Lykke.Service.KycDocuments
+KycDocuments
