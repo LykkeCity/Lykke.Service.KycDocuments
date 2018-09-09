@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyName>Lykke.Service.KycDocuments.Domain</AssemblyName>
+    <RootNamespace>Lykke.Service.KycDocuments.Domain</RootNamespace>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Domain\**" />
+    <Compile Remove="Services\**" />
+    <EmbeddedResource Remove="Domain\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Domain\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Lykke.Common" Version="7.0.3" />
+  </ItemGroup>
+</Project>

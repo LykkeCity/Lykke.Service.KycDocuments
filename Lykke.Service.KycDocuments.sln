@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Service.KycDocuments", "src\Lykke.Service.KycDocuments\Lykke.Service.KycDocuments.csproj", "{E414FDB9-FEEA-4CD0-9BBA-D1541601DF29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Domain", "1. Domain", "{CC2067D7-1971-47BB-B491-5649EA3C18B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Instrastructure", "2. Instrastructure", "{BF745453-B940-470E-81BC-43FB67703D4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Service.KycDocuments.AzureRepositories", "src\Lykke.Service.KycDocuments.AzureRepositories\Lykke.Service.KycDocuments.AzureRepositories.csproj", "{4BE49E02-AAAD-460B-8D00-57F412A3D181}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Client", "4. Client", "{C9A2CFDE-EA32-4946-B679-7CE6EFA816B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Service.KycDocuments.Client", "client\Lykke.Service.KycDocuments.Client\Lykke.Service.KycDocuments.Client.csproj", "{3C300C31-97D3-41E8-A627-C53491BDA28B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Service.KycDocuments.Tests", "tests\Lykke.Service.KycDocuments.Tests\Lykke.Service.KycDocuments.Tests.csproj", "{A61FFDEE-5725-4650-A788-6E55EE5EFD5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Tests", "5. Tests", "{8F9036B1-5106-4C69-B2D2-B78EE52687A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution items", "0. Solution items", "{7664A776-FBC4-4DB1-BE35-29E9664E24B4}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		settings.yaml = settings.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Contract", "3. Contract", "{50039EAD-4FD7-49C6-8058-116A24E07EBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Service.KycDocuments.Domain", "src\Lykke.Service.KycDocuments.Domain\Lykke.Service.KycDocuments.Domain.csproj", "{514C17F0-1BF9-4FD4-89A7-A44011413C4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lykke.Service.KycDocuments.Domain.Services", "src\Lykke.Service.KycDocuments.Domain.Services\Lykke.Service.KycDocuments.Domain.Services.csproj", "{5F4BF0B4-29E5-4F26-9B16-7D4D95B4DAAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E414FDB9-FEEA-4CD0-9BBA-D1541601DF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E414FDB9-FEEA-4CD0-9BBA-D1541601DF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E414FDB9-FEEA-4CD0-9BBA-D1541601DF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E414FDB9-FEEA-4CD0-9BBA-D1541601DF29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE49E02-AAAD-460B-8D00-57F412A3D181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE49E02-AAAD-460B-8D00-57F412A3D181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE49E02-AAAD-460B-8D00-57F412A3D181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE49E02-AAAD-460B-8D00-57F412A3D181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C300C31-97D3-41E8-A627-C53491BDA28B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C300C31-97D3-41E8-A627-C53491BDA28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C300C31-97D3-41E8-A627-C53491BDA28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C300C31-97D3-41E8-A627-C53491BDA28B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61FFDEE-5725-4650-A788-6E55EE5EFD5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61FFDEE-5725-4650-A788-6E55EE5EFD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61FFDEE-5725-4650-A788-6E55EE5EFD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61FFDEE-5725-4650-A788-6E55EE5EFD5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514C17F0-1BF9-4FD4-89A7-A44011413C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514C17F0-1BF9-4FD4-89A7-A44011413C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514C17F0-1BF9-4FD4-89A7-A44011413C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514C17F0-1BF9-4FD4-89A7-A44011413C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4BF0B4-29E5-4F26-9B16-7D4D95B4DAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4BF0B4-29E5-4F26-9B16-7D4D95B4DAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4BF0B4-29E5-4F26-9B16-7D4D95B4DAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4BF0B4-29E5-4F26-9B16-7D4D95B4DAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BE49E02-AAAD-460B-8D00-57F412A3D181} = {BF745453-B940-470E-81BC-43FB67703D4E}
+		{3C300C31-97D3-41E8-A627-C53491BDA28B} = {C9A2CFDE-EA32-4946-B679-7CE6EFA816B8}
+		{A61FFDEE-5725-4650-A788-6E55EE5EFD5B} = {8F9036B1-5106-4C69-B2D2-B78EE52687A0}
+		{514C17F0-1BF9-4FD4-89A7-A44011413C4A} = {CC2067D7-1971-47BB-B491-5649EA3C18B2}
+		{5F4BF0B4-29E5-4F26-9B16-7D4D95B4DAAD} = {CC2067D7-1971-47BB-B491-5649EA3C18B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB6C0EF4-AA6A-444D-8603-3669F73A58BC}
+	EndGlobalSection
+EndGlobal

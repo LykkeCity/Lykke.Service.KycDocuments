@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lykke.Service.KycDocuments.Client</name>
+    </assembly>
+    <members>
+        <member name="M:Lykke.Service.KycDocuments.Client.AutofacExtension.RegisterKycDocumentsClient(Autofac.ContainerBuilder,Lykke.Service.KycDocuments.Client.KycDocumentsServiceClientSettings,System.Func{Lykke.HttpClientGenerator.HttpClientGeneratorBuilder,Lykke.HttpClientGenerator.HttpClientGeneratorBuilder})">
+            <summary>
+            Registers <see cref="T:Lykke.Service.KycDocuments.Client.IKycDocumentsClient"/> in Autofac container using <see cref="T:Lykke.Service.KycDocuments.Client.KycDocumentsServiceClientSettings"/>.
+            </summary>
+            <param name="builder">Autofac container builder.</param>
+            <param name="settings">KycDocuments client settings.</param>
+            <param name="builderConfigure">Optional <see cref="T:Lykke.HttpClientGenerator.HttpClientGeneratorBuilder"/> configure handler.</param>
+        </member>
+        <member name="T:Lykke.Service.KycDocuments.Client.IKycDocumentsApi">
+            <summary>
+            KycDocuments client API interface.
+            </summary>
+        </member>
+        <member name="T:Lykke.Service.KycDocuments.Client.IKycDocumentsClient">
+            <summary>
+            KycDocuments client interface.
+            </summary>
+        </member>
+        <member name="P:Lykke.Service.KycDocuments.Client.IKycDocumentsClient.Api">
+            <summary>Application Api interface</summary>
+        </member>
+        <member name="T:Lykke.Service.KycDocuments.Client.KycDocumentsClient">
+            <summary>
+            KycDocuments API aggregating interface.
+            </summary>
+        </member>
+        <member name="P:Lykke.Service.KycDocuments.Client.KycDocumentsClient.Api">
+            <summary>Inerface to KycDocuments Api.</summary>
+        </member>
+        <member name="M:Lykke.Service.KycDocuments.Client.KycDocumentsClient.#ctor(Lykke.HttpClientGenerator.IHttpClientGenerator)">
+            <summary>C-tor</summary>
+        </member>
+        <member name="T:Lykke.Service.KycDocuments.Client.KycDocumentsServiceClientSettings">
+            <summary>
+            KycDocuments client settings.
+            </summary>
+        </member>
+        <member name="P:Lykke.Service.KycDocuments.Client.KycDocumentsServiceClientSettings.ServiceUrl">
+            <summary>Service url.</summary>
+        </member>
+    </members>
+</doc>
